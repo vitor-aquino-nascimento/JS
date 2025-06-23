@@ -1,0 +1,1 @@
+De acordo com o que aprendemos no caminhar dos nossos estudos, sabemos que HTML seria o conteúdo total do nosso site ou app, já o CSS seria a aparência do nosso site e agora o JavaScript serve para deixar o site dinâmico, fazendo animações e interações.

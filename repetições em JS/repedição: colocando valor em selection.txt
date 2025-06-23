@@ -1,0 +1,19 @@
+Function contar(){
+	let fnum = document.getElementById('txtn')
+	let tab = document.getElementById('tabsel')
+
+	if( fnum.value.legth == 0 ){
+	window.alert(' Digite um número! ')
+} else{
+	let n = Number(num.value)
+	tab.InnertHTML = ' '
+
+	for(let c = 1; c <= 10; c += 1){
+		let item = document.createElement('option')
+		item.text = `${n} x ${c} = ${n * c}`
+		tab.appendChild(item)
+}
+}
+}
+
+Com o exemplo a cima, podemos fazer uma tabuada. Fazendo com que ela tenha uma limitação até o numero 10, utilizando a ferramenta "for". Tirando isso, aqui aprendemos a colocar dados dentro de um seletor.

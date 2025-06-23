@@ -1,0 +1,39 @@
+em DOM temos os eventos, eles são tudo aquilo que pode ser feito e executado num elemento. Um exemplo que posso dar é os eventos de: mouseenter, mousemove, mousedown, mouseup, click e mouseout. E quando vamos utiliza-los, funciona da seguinte forma.
+
+Antes de fazer uma configuração de interação, temos que colocar primeiramente o que queremos mexer numa variável: var a = window.document.queryselector('div#bottom')
+
+Assim que impormos uma variável, fazer as configurações. Nesse caso temos 6 tipos de interações com o mouse por cima do elemento selecionado: 
+mouseenter(quando entrar no elemento);
+mouseout(quando sai do elemento);
+mousedown(quando se mantem precisando o mouse);
+mouseup(quando você solta o mouse);
+click(quando se clica no elemento);
+mousemove(quando você movimenta o mouse dentro do elemento).
+
+Mas para que os eventos ocorram precisamos entender as funções.
+
+Toda vez que formos operar um evento, temos que impor um bloco e assim ele sendo feito com "{}".
+Exemplo: 
+{
+Bloco
+}
+
+E assim que for feito um bloco, se precisa colocar uma função.
+Exemplo:
+Function{
+Bloco 
+}
+
+Mas também mesmo existindo as funções anônimas, precisamos impor um nome na nossa função.
+Exemplo:
+Funciona bottom(){
+bloco
+}
+
+Porem também, nos precisamos colocar uma configuração em HTML  para que o JavaScript funcione.
+Exemplo:
+<div id="area" onclick="clicou()">
+	interessa...
+</div>
+
+Obs:. Nesse caso, precisamos chamar a configuração por isso colocar "onclick" (ao clicar)

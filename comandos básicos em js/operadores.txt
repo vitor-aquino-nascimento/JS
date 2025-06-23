@@ -1,0 +1,80 @@
+Temos vários operadores em JS, e elas são:
+
+*aritméticos
+*atribuição
+
+1) Aritméticos e atribuições
+
+	Os operadores aritméticos são utilizados para fazer cálculos. Nessa classe de operadores temos os seguintes símbolos para executar um calculo:
+
++ = soma
+- = subtração
+* = multiplicação
+/ = divisão real (resultado com virgula)
+% = divisão com numero inteiro
+** = potência (numero x ele mesmo)
+
+	prescindencia de operadores, nesse caso é como o calculo vai se iniciar. Como por exemplo 5 + 3 / 2 = ?
+Normalmente algumas pessoas iriam começar esse calculo pela soma e por ultimo iria dividir. Ficando dessa forma:
+
+				5 + 3 = 8  / 2 =  4
+
+Dessa forma está errado, a maneira correta de se iniciar a conta é pela divisão e por ultimo vir somando. Dessa forma:
+
+				3 / 2 = 1.5 + 5 = 6.5
+
+	Mas se você quer que o resultado dessa conta realmente  dê 4, eu posso de informar que isso é sim possível, basta colocar os números (5 + 3) entre parênteses, porque assim como na matemática comum tudo que esta entre parênteses é executado primeiro.
+
+				(5 + 3) = 8 / 2 = 4
+
+	Ai como estamos falando sobre ordem de inicio de calculo, entramos no assunto (Ordem de Precedência dos numeradores).
+
+() = tudo entre parênteses, será o primeiro a ser calculado.
+** = depois as potências 
+*  /  % = sempre que um desses símbolos estejam na mesma linha começamos da esquerda para direita
++ -  = e por ultimo as somas e subtrações
+
+*relacionais
+*lógicos
+*ternário
+
+Atribuição simples
+
+É quando usamos a coleta de dados para, fazer uma soma
+Ex:.
+Var a = 5+3 
+8
+Var b = a%5
+3
+Var c =5*b**2
+45
+
+Auto-atribuição
+
+É quando fazemos a conta com o mesmo valor
+Ex:.
+Var n= 3
+3
+n=n+4
+7
+n=-5
+2
+
+Simplificando
+
+Var n = 3
+n=n+4
+n=n-5
+n=n**9
+
+Incremento
+
+Var x = 5
+5
+x=x+1
+6
+x=x-1
+5
+x=x/5
+1
+

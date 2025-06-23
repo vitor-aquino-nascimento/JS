@@ -1,0 +1,41 @@
+Quando vamos fazer uma soma de números com o JS, usamos o sinal de mais (+). Porem, tome cuidado pois o sinal de mais serve tanto para concatenar e para somar. Isso ocorre quando á uma string dos dois lados do sinal de mais, mas quando tem dois Number, ele soma.
+
+Uma curiosidade, o comandos prompts eles sempre vão retornar como uma string, mesmo sendo um numero, então nesse caso precisamos converte-los para um numero de novo.
+
+A maneira de convertermos uma string num numero, precisamos usar um comando chamado
+
+Number
+
+Temos 3 tipos o:
+
+Number.parseInt(n) // converte para numero inteiro
+Number.parseFloat(n) // converte para numero real
+Number(n) = conversão automática
+
+Mas também podemos converter para string.
+
+String(n)
+N.toString()
+
+Outras formatações em strings que podem ser utilizadas são:
+
+n.length // quantos caracteres a string tem
+n.toUpperCase() // tudo para 'MAIÚSCULAS'
+n.toLowerCase() // tudo para 'minúsculas'
+
+Formatações em números:
+
+n.toFixed(number) // coloca ponto
+n.toFixed(number).replace // troca de ponto de virgula 
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //formatação para moedas
+
+
+Se for converter string para numero, se for em (Window.prompt) fazer nele mesmo:
+Var n1 = Number(window.prompt('write a value: '))
+
+Mas se for converter em documento. <input type="number" name="number1" id="number1"> . Ai convertemos por fora.
+var num1 = window.document.getElementById('number1')
+var n1 = Number(num1.value)
+
+(number + number) = adição
+(string + string) = serve para concatenar

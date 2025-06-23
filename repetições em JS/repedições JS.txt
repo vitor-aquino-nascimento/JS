@@ -1,0 +1,28 @@
+No assunto de repetições, temos a ferramenta while[enquanto].
+
+Aprendemos nas aulas anteriores, que no JS temos uma certa sequência que precisa ser seguida para funcionar, mas também aprendemos que podemos mudar a sequencia utilizando as condições e agora vamos aprender a um método de repetição.
+
+Pensa comigo, quando vamos falar sobre repetições pensamos em coisas que se repeti bastante. Então nesse caso, vamos utilizar uma pizza como exemplo:
+
+Quando compramos uma pizza, nos repetimos uma ação, que é comer fatia por fatia até a pizza finalmente acabar. Em formado de código funciona da mesma maneira
+
+ESTRUTURA DE REPETIÇÃO COM TESTE LÓGICO (NO INICIO)
+
+Var pizza = 1
+
+Function comer(){
+	while(TemFatia()){
+		comerFatia()
+}
+}
+
+Var pizza = 1
+	while(pizza <= 8){
+		console.log(`comeu ${pizza} pizzas`)
+}
+
+Veja que temos uma pizza de 8 fatias. E lendo esse código: Uma pizza de com 8 fatias o programa vai comer, e enquanto houver fatia ele irá continuar a comer-la. Caso acabe as fatias, ele cancela a repetição e segui com os próximos comandos.
+
+ESTRUTURA DE REPETIÇÃO COM TESTE LÓGICO (NO FINAL)
+
+Nesse caso ele executa o bloco primeiro e por ultimo o teste lógico

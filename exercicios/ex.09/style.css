@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font: normal lighter 17px 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 700px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+input,buttom{
+    border: solid 0px;
+    padding: 7px;
+    font: normal bolder 17px 'Courier New', Courier, monospace;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.255);
+    border-radius: 10px 2px;
+}
+
+#result{
+    background-color: aquamarine;
+    height: 55px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px 2px;
+    padding: 1px;
+}

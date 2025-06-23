@@ -1,0 +1,53 @@
+O que são as condições em JS?
+
+Sequências
+Como nos já sabemos em JS temos uma sequencia de códigos que tem que ser seguida.
+
+Exemplo {
+Var n = 3 // coletando dados
+n += 2 // somando
+Window.alert(n) // onde a resposta vai aparecer
+}
+
+Nesse exemplo temos uma variável coletando o numero 3, em seguida somando com ele mesmo e por ultimo demonstrando o resultado numa janela de alerta no navegador.
+
+Mas eu posso não executar um desses comandos ou mudar a ordem?
+
+Não, como o próprio nome diz, Seqüencial, ele tem uma ordem a ser seguida, e se mudar essa ordem ou não executar um comando necessário, seu código não vai funcionar.
+Porem temos um meio válido de modificar a ordem, utilizando as (Condições).
+
+Condições
+As condições em JS é descrito com o if(se) e else(se não). 
+
+Exemplo{
+Var n = 3
+N += 2
+If(n>=5){
+	seu numero é maior que 5
+}else{
+	seu numero não é maior que 5
+}
+Window.alert(n)
+}
+
+Nesse caso, o que fizemos é que colocando a condição de if e else, estamos dizendo para o JS que se o numero for maior de 5, o alert que só iria nos dar a resposta da soma, vai agora nos dar a resposta se o numero é maior ou menor de 5. Se for maior: seu numero é maior de 5
+Se for menor: seu numero é menor de 5.
+Assim usando isso para outros exemplos também, poderíamos executar um comando só se o resultado do usuário for if, caso seja else, o código não continua seu funcionamento.
+
+Condição simples: onde só a o resultado de verdadeiro
+
+Exemplo{
+	if(condição){
+		true
+}
+}
+
+Condições compostas: onde á duas alternativas: if e else
+
+Exemplo{
+	if(condição){
+
+}else{
+
+}
+}

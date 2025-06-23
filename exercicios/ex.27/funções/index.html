@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analizador de Números</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+        <main>
+            Número (Entre 1 a 100): <input type="number" name="txtn" id="txtn">
+            <input class="button" type="button" value="Analizar"
+                onclick="verificar()">
+            <div class="selecao">
+                <select name="numb" id="numb" style="width: 150px;"
+                    size="10px"></select>
+                <br>
+                <input class="button" type="button" value="Finalizar"
+                    onclick="finalizar()">
+                <div id="saida"></div>
+            </div>
+        </main>
+        <footer>
+            &copy;Vitor_Nascimento
+        </footer>
+
+        <script src="interacao.js"></script>
+    </body>
+</html>

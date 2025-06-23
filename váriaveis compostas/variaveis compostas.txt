@@ -1,0 +1,21 @@
+Variáveis compostas
+
+Variáveis simples só consegue armazenar um valor por vez
+
+Variáveis compostas dever ser capazes de armazenar vários valores
+
+Com elas podemos impor varias variáveis de um jeito mais simplificado, e impedindo do seu código ficar poluído.
+
+Como por exemplo:
+
+Imagina coletar 500 variáveis, com isso faríamos: let n1 = carro...........let n500 = carro500.
+
+Ia ficar um código muito grade, com as variáveis compostas simplificamos isso:
+
+Let n = []
+
+Mas msm assim ficaria muito grande, ai entra o que aprendemos nas aulas de repetições:
+
+for( let pos = n; pos < 500; pos++){
+	console.log(` ${pos}`)
+}

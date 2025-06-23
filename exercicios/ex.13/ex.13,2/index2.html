@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual a sua idade?</title><link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliador de idade</h1>
+    </header>
+    <section>
+        <p>Coloque abaixo seu ano de Nascimento</p>
+        Digite: <input type="text" name="txtano" id="txtano" min="0">
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="mas">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+        <input class="button" type="button" value="Verificar" onclick="analizar()">
+        <div id="resp"></div>
+        <div id="foto"></div>
+    </section>
+    <footer>&copy;Vitor_Nascimento</footer>
+    <script src="interação2.js"></script>
+</body>
+</html>

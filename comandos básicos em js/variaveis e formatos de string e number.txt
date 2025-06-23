@@ -1,0 +1,72 @@
+	Ja vimos como que guardamos dados lá na anotação anterior mas na prática como funcionaria?
+
+	Simples. Lembra que paga a coleta de dados usamos o "var" então, iremos utiliza-lo muito para essas ocasiões, mas uma coisa que eu não cheguei a anotar antes é que não existe só a tag "var" como variável, mas também temos o let e o const.
+	Mas seguindo nossa linha de raciocínio, quando vamos coletar usamos as tags variáveis assim ficando: 
+
+var nome = window.prompt("qual seu nome?")
+
+Quando executamos esse comando aparecerá uma janela com um espaço para você preencher, já no nosso exemplo a janela vai perguntar o seu nome. E o comando var vai coletar a informação posta dentro da janela.
+	Mas quando queremos pedir pro JS a informação coletada nos colocamos da seguinte forma:
+
+Window.alert('Bem vindo, '  +nome) -> Não podemos colocar a variável que desejamos dentro de (') , (") pois não funcionará. Já esse símbolo de + serve para concatenar (juntar duas strings), mas também esse sinal pode ser usado para soma de números.
+
+	Então quando vamos fazer a mesma coisa só que com numero é do mesmo jeito só muda algumas coisinhas. Como por exemplo, pelo que eu expliquei acima o sinal de + serve para concatenar ou somar. Mas isso é automático? Não!
+Para que o JS entenda que você está somando ou concatenando, você precisa deixar isso bem claro para a linguagem. Siga o exemplo abaixo:
+
+Var n1 = window.prompt('escreva um numero: ')
+Var n2 = window.prompt('escreva outro numero: ')
+Var s = n1 + n2
+
+Veja que aqui está tudo certo, colocamos a tag variável e nomeamos de n1 e n2. E por ultimo criamos outra variável que "somará" as duas variáveis dando um resultado.
+
+Window.alert('a soma dos números é ' +s)
+
+Pensando que o usuário colocou na primeira janela 4, e na segunda 2, e já compreendendo como o JS funciona. É certo dizer que o resultado que deveria dar é (6). Mas infelizmente do jeito que o código está a cima ele vai dar o resultado 42 não 6. Mas porque? Lembra que eu disse que o sinal de + serve para soma ou concatenar, esse símbolo de um jeito simples de entender seu funcionamento. Se á string + string ele concatena, se tiver Number + Number ele soma.
+Mas ai que está o segredo, tudo que colocamos em variável e não convertemos para numero ele vira um string, mesmo se o que foi colocado é numero. Por isso deu o resultado 42. Mas como fazemos para converter uma string em um numero?
+	Para fazer essa conversão precisamos utilizar a tag Number.parseLnt(n) ou Number.parseFloat(n). O Number.parseInt(n) serve para números inteiros, já o Number.parseFloat(n) serve para numero real ou melhor dizendo numero com virgula. Mas também temos a tag Number(n) que simplifica as duas conversões, então se você a utilizar você pode colocar um numero inteiro ou não, e o código vai identificar sozinho e nos dar o resultado.
+
+	Mas seu eu quiser converter um Number em uma string?
+Para esse caso temos duas tags:
+*string(n)
+*n.toString()
+
+
+Conteúdo extra:
+
+Formatação string.
+
+>nome = vitor
+>idade = 20
+>nota = 5.5
+
+>`o aluno ${nome} de ${idade} anos tirou a nota ${nota}`
+>o aluno Vitor de 20 anos tirou a nota 5.5
+
+Obg: essa simplificação só funciona com graze (`)
+
+Veja como esse código é muito mais simples do que usar vários +. Outra a diferença de tamanho um do outro e do trabalho.
+
+>'o aluno' +nome + ' de ' +idade + 'anos tirou a nota ' +nota
+>o aluno Vitor de 20 anos tirou a nota 5.5
+
+Mas também temos:
+
+s.length > quantos caracteres a string tem
+s.toUpperCase() >tudo para "MAIÚSCULAS"
+s.toLowerCase() >tudo para "minúsculas"
+
+Alem de mostrar o resultado numa janela, também podemos mostrar o resultado na página do documento. Usando a tag:
+
+Document.write > ele escreve no documento
+Document.writeln > ele escreve e quebra a linha
+
+Formatação de numero:
+
+n.toFixed(2) -> esse serve para criar uma casa decimal num numero
+n.toFixed(2).replace(',' , '.') -> já esse extenso serve para trocar "." por ","
+
+Agora se for demonstrar um valor em dinheiro, usamos a tag:
+
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+Obs: currency = dinheiro

@@ -1,0 +1,28 @@
+Agora falando sobre o ECMAScript. Nos temos muitas versões que foram lançadas com o tempo por exemplo.
+
+Versões ECMAScript;
+
+1.0 -> Essa foi a sua primeira versão da linguagem ECMAScript 
+1997
+2.0 -> Já essa teve pequenas atualizações em seu desenvolvimento
+1998
+3.0 -> Essa versão trouxe compatibilidade com expressões  regulares, bloco try catch(para tratar erros).
+1999
+ES5 -> Nessa versão tinha um compatibilidades com diversos navegadores, e trouxe varias soluções para tratar a reatc
+2009
+ES6 -> Aqui surge os declaradores  let e cols't e as strins interprets. 
+2015
+ES2016 -> trouxe o operador de exponenciação.
+ES2017 -> que trouxe funções assíncronas
+ES2018 -> trouxe novidades em expressões regulares e trouxe a possibilidade de promises. 
+
+Mas não temos só isso, temos também as tecnologias
+Que veio junto com a linguagem javascript.
+
+Technology:
+
+jQuery -> criado pela própria empresa mozilla, com o propósito de ter um bom uso de interatividades.
+Angula -> feito pela google, e ajuda no fato de aplicações web, ela não seria uma linguagem muito imperativa, ela é mais um declarativa.
+Reacht -> essa linguagem foi desenvolvida pelo Facebook, ele tem quase a mesma funcionalidade do angula, porem ele tem uma flexibilidade maior que o próprio angula.
+Vue -> ele foi criado por um funcionário do google que estava cansado de usar o angula, então resolveu criar sua própria linguagem, melhorada.
+Electro -> criado para interface gráfica.

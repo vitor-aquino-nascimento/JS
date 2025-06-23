@@ -1,0 +1,4 @@
+Aqui vamos aprender uma das melhores maneiras de utilizar a ferramenta de repetição:
+
+ESTRUTURA DE REPETIÇÃO COM VARIÁVEL DE CONTROLE
+

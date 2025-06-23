@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analisador de Números</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Analisador de Números</h1>
+        </header>
+        <main>
+            Digite um número: <input type="number" name="txtn"
+                id="txtn">
+                <input class="button" type="button" value="Adicionar"
+                onclick="adicionar()">
+                <div class="selecao">
+                <select name="saida1" id="saida1" style="width: 150px;" size="10px">
+                </select>
+                <br>
+                <input class="button" type="button" value="finalizar"
+                onclick="finalizar()">
+                <div id="saida2"></div>
+            </div>
+        </main>
+        <footer>&copy;Vitor_Nascimento</footer>
+
+        <script src="analize.js"></script>
+    </body>
+</html>

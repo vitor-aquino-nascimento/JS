@@ -1,0 +1,3 @@
+Windows.alert('Bem vindo!!')
+Windows.confirm('Você gosta de javascript?')
+Windows.prompt('Qual seu nome?')

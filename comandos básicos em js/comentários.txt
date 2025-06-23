@@ -1,0 +1,5 @@
+Temos 2 tipos de comentários em JS
+
+// - uma única linha
+
+/* mais de uma linha de código */

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo do Adivinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="gerar()">
+    <div class="container">
+        <h1>Jogo do Adivinho</h1>
+        <div class="fundo">
+            <div class="paragra">
+                <p>Click no botão abaixo para que o computador possa escolher o numero.
+                    <br>
+                   Assim que a maquina gerar um numero, tente adivinhar qual número ela escolheu
+                </p>
+                <input class="button" type="button" value="Gerar número" onclick="jogar()">
+            </div>
+            <hr>
+            <div id="saida"></div>
+        </div>
+    </div>
+
+    <script src="adivinha.js"></script>
+</body>
+</html>

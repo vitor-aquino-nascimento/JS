@@ -1,0 +1,61 @@
+Como funciona uma variável?
+
+Aqui vou passar um exemplo fácil e simples de se entender.
+
+Pense que você tem um terreno e nele você quer utiliza-lo como estacionamento, se colocarmos os carros dentro dele sem organização vamos acabar até perdendo alguns carros no meio da bagunça e nem vamos conseguir tirar os primeiros carros de lá de dentro. Então o melhor a se fazer é separar vagas separadas e alinhadas para se obter uma organização.
+
+No computador funciona do mesmo jeito, se não colocarmos os dados dentro dele de forma organizada, iremos perder dados e nem vamos conseguir aplica-los. Ai entra as variáveis, elas são literalmente as nossas "vagas" onde colocamos os dados de forma organizada e usando o mesmo exemplo do estacionamento, quando se á um carro numa vaga e outro carro quer entrar na mesma, precisamos fazer algo bem lógico; tirar o carro que já está na vaga para colocar o outro no lugar, numa variável em JS funciona do mesmo jeito. Siga o exemplo abaixo:
+
+Var vaga = "carro_1"
+Primeiro criamos a vaga -> (var)
+Depois nomeamos -> (vaga)
+E por ultimo colocamos o que está sendo colocado (carro_1)
+
+Obs: sinal de "=" no JS não se chama de igual, mais sim de "recebe". Porque a variável está recebendo dados dentro dela.
+
+Mas então para criar os nomes das minhas variáveis, tem alguma regra? Sim!
+
+As regras são simples:
+
+*Podemos começar com letras, $ ou _ (nesse caso "$ e _" não são muito utilizados. Mas nada impede de usar).
+
+*Não podem começar com números. Por exemplo: var 1vaga = "carro1"
+
+*É possível usar letras ou números. Por exemplo: var vaga1 = "carro1"
+
+*É possível usar acentos e símbolos. Por exemplo: var & = "100,00"
+
+*Não podem conter espaços (nesse caso use "_" se for colocar espaço)
+
+*Não podem ser palavras reservadas. Por exemplo: var var  = "Vitor" (não se pode usar palavras que o JS já usa como comando)
+
+Maiúsculas e minúsculas fazem diferença. Por exemplo: se eu crio um var A = "Vitor" ele vai me dar o resultado A. 
+Mas se eu tenho var A = "Vitor"  e  var a = "Gustavo", ele vai me dar os resultados diferentes conforme eu pedir. Nesse caso se eu pedisse:
+> A
+"Vitor"
+>a
+"Gustavo"
+
+Ou se não tivesse a variável "a"
+
+>A
+"Vitor"
+>a
+"Uncaught refereceError: a is not defined"
+
+*Tente escolher nomes coerentes para as variáveis.
+(Não que você não possa usar n1, n2 ou n3 como forma de nomear uma variável, mas tente fugir disso. Porque pensa comigo, se você tem uma variável que identifica nome e você coloca n1 como nome, fica muito mais difícil para se localizar não acha?)
+
+Para o JS existe classificações de variáveis como por exemplo: Number, string, boolean, undefined, object e fuction
+
+O que seria isso? Isso tudo são as classificações de variáveis em JS, como por exemplo:
+
+*Number: números (infinity e NaN)
+*string: conjunto de caracteres
+*boolean: valor booleano (true e false)
+*undefined:
+*null:
+*object:
+*fuction:
+
+Obs: temos também uma tag chamada de typeof, ela nos mostra qual é o tipo de classificação da variável.

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body{
+    font: normal normal 17px 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+input{
+    border: none;
+    padding: 3px;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px 3px;
+    box-shadow: 0px 0px 8px orange;
+    background-color: orange;
+}
+
+mark{
+    padding: 5px;
+    background-color:  #DC143C;
+    box-shadow: 0px 0px 8px #dc143c96;
+    border-radius: 4px;
+    font-weight: bold;
+}

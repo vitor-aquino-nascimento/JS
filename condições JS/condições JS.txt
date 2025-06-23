@@ -1,0 +1,20 @@
+Em JS temos as sequência, que seria a ordem que um código deve seguir. 
+
+Var n = 3
+
+n += 2
+
+Window.document.alert(n)
+
+Nesse exemplo acima temos uma sequência, onde começamos com uma variável e finalizamos com um resultado. Nesse caso, uma soma de valores 3 + 2 = 5. E como nos sabemos, não podemos pular uma dessas sequencias por exemplo somar primeiro e depois colocar a variável, mas uma das coisas que podemos fazer é colocar uma coisa a mais no lugar dessa sequencia, assim não precisando seguir exatamente essa ordem. Essa método chamamos de condições, e sobre elas temos várias, mas nessa anotação irei descrever apenas 2.
+
+Var pais = 'Brasil'
+
+If (pais == 'Brasil'){
+	console.log(`você é de ${pais}, Brasileiro.`)
+}else{
+	console.log(`você é de ${pais}, Estrangeiro.`)
+}
+
+Nesse caso criamos uma "sequencia alternada", tanto uma condição de valores. Colocando if e else(I SI ou SE NÃO).
+

@@ -1,0 +1,22 @@
+Para que serve o DOM e Como o ele funciona?
+
+A ferramenta DOM, é utilizada para acessar documentos e elementos dentro de um navegador. Tanto que ele não funciona no NodeJs.
+
+Então seguindo esse exemplo, poderíamos utiliza-lo como um buscador de arquivos dentro de um website (barra de pesquisa). Onde a pessoa escreve o que ela quer, e o DOM procura e joga ela para aquilo que a pessoa deseja.
+
+
+ARVORE DOM:
+
+Arvore hierárquica DOM é formada inicialmente pelo WINDOW e assim tendo os child: Location, Document e History
+
+Location: Onde seu site se localiza
+Document: Onde está os arquivos principais do site (Estrutura).
+History: Ajuda na navegação, salvando tudo que foi feito no site pelo usuário e dados coletados.
+										window
+										       |
+							location           document              history
+										       |
+										   HTML
+								                  /            \
+									head	     body
+						   (meta, title, ...)		          (h1, p, div, ...)

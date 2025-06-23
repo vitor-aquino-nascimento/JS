@@ -1,0 +1,34 @@
+Aprendemos como configurar funções em JavaScript, mas aprendemos um método bem complexo, á uma maneira simplificada que chamamos de listener(ouvidores). 
+
+* addEventListener
+
+Alem de facilitar na hora de descrever. Ele evita poluir muito seu HTML com muitos códigos.
+
+* a.addEventListener('click' clicar)
+
+Obs:. Essa configuração tem que ser feita em baixo da variável, quase contrário não funcionara.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Também podemos fazer esse tipo de configuração, onde coletamos informações  do usuário e logo em seguida tamos um resultado. Nesse exemplo estamos fazendo somas.
+
+Primeiramente fazemos as configurações em html:
+
+<input type= "number" name="ex1" id="ex1">       <== Aqui vai criar espaço para colocar qualquer informação, que esteja sendo desejada (nesse caso: números)
+<input type= "number" name="ex2" id="ex2">
+<input type= "button" value="somar" onclick="somar()">       <==Aqui vai criar um botão de interação
+<div id= 'resp'>aqui vai o resultado</div>
+
+Logo em seguida, vamos configurar em JS
+
+<script>
+	function somar() {
+		var e1 = window.document.getElementById('ex1')  <== aqui coletamos á informação imposta
+		var e2 = window.document.getElementById('ex2')
+		var res = window.document.getElementById('resp')  <== aqui onde a resposta irá aparecer
+		var n1 = Number(e1.value)   <== logo em seguida temos que converter letra em numero
+		var n2 = Number(e2.value)
+		var s = n1 + n2  <==aqui irá somar
+		res.innerHTML = `a soma de ${n1} + ${n2} é igual á ${s}`  <== aqui descreve o resultado
+}
+<script>

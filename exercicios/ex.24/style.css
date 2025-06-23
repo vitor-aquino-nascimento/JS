@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(100, 205, 170);
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.593);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#card{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.489);
+}
+
+#saida{
+    margin-top: 10px;
+    text-align: justify;
+    background-color: rgb(100, 205, 170);
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.593);
+    padding: 10px;
+    border-radius: 3px;
+}

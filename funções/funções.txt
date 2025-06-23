@@ -1,0 +1,29 @@
+Como as funções funcionam?
+
+Já utilizamos a ferramenta function antes, foi quando fizemos um botão com uma função de Onclick. Porem essa função que fizemos ela não havia um retorno, pois nem sempre, mas o certo é. 
+
+Toda função der: Um chamado, um Parâmetro, uma Ação e um retorno.
+
+Mas nem sempre irá ter um parâmetro ou um retorno. Mas chamada e ação, tem que ter.
+
+
+Quando pensamos sobre funções, podemos utilizar um exemplo simples: Sua mãe te pediu para comprar leite.
+
+Sua mãe te pediu para comprar leite, com isso ela te dá um dinheiro, você vai até o mercado e compra o leite e com isso você entrega o leite para sua mãe.
+
+Sua mãe: Chamado
+Dinheiro: Parâmetro
+Ir no mercado: Ação
+Entregar o leite pra mãe: Retorno
+
+
+Exemplo:
+
+function parimp(parâmetro){
+	if (n%2==0){ // ação
+		return 'par'
+	} else{
+		return 'impar' // retorno
+	}
+}
+Let res = parimp(11) // chamado

@@ -1,0 +1,57 @@
+Condições Múltiplos:
+
+switch(expressão){ // A estrutura switch basicamente permite você testar valores dentro de uma variável ou expressão. Ela é compatível apenas com números inteiros e strings
+
+        case 1:
+	case valor 1:
+
+	break // O break é obrigatório em cada case. Se não for colocado, acontecerá a execução de vários comandos indesejados de outros cases
+	case valor 2:
+
+	break
+	case valor 3:
+
+	break
+	default:
+
+	break
+}
+
+Os breaks são obrigatórios. Mas porque? Simples, vamos dizer que o comando foi verificar a expressão imposta, e com isso ele caiu num resultado do bloco 2. Ele vai executar os comandos do bloco 2 e por final vai ir no break. CASO NÃO TENHA O BREAK, ELE VAI CONTINUAR EXECUTANDO TODOS OS COMANDOS.
+
+Exemplo{
+
+	var dia = new Date()
+var diaSem = dia.getDay()
+
+var diaSem = 7
+
+switch (diaSem) {
+    case 0:
+        console.log(`Domingo`)
+        break;
+    case 1:
+        console.log(`Segunda`)
+        break
+    case 2:
+        console.log(`Terça`)
+        break
+    case 3:
+        console.log(`Quarta`)
+        break
+    case 4:
+        console.log(`Quinta`)
+        break
+    case 5:
+        console.log(`Sexta`)
+        break
+    case 6:console.log(`Sábado`)
+        break
+    
+    default:
+        console.log(`[ERRO-701] Data inválida`)
+    break;
+}
+}
+
+O switch ajuda muito para não fazer muitas linhas de condições aninhadas

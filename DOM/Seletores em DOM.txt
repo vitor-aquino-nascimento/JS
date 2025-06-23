@@ -1,0 +1,18 @@
+Temos algumas configurações em DOM que nos possibilita modificar ou buscar elementos dentro de um código;
+
+*Marca:
+getelementsbytagname(n)
+Esse seletor, selecionamos uma tag pelo seu próprio nome. mas se por acaso haver mais de uma tag com o mesmo nome, basta enumera de 0 pra frente. 
+Obs: Quando vamos replicar um código usando esse seletor, temos dois tipos de replicagem: innerText (que apensas copia o texto, sem configuração.) e innerHTML(que copia o texto completo, com configuração e tudo.)
+
+*ID
+getelementbyid(n)
+
+*Nome
+getelementsbyname(n)
+
+*Classe
+Getelementsbyclassname(n)
+
+*Seletor
+queryselector(n) ou queryselectorall(n)

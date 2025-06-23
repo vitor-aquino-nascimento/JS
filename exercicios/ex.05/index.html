@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com numeros</title>
+</head>
+<body>
+    <h1>Calculando em JavaScript</h1>
+    <h2>Click em Começar para fazer os calculos</h2>
+    <input type="button" value="Começar" onclick="começar()">
+    <section id="resp">
+        <p>O resultado é: </p>
+    </section>
+
+    <script>
+        function começar() {
+            var num1 = window.prompt('Descreva um numero: ')
+            var res = window.document.getElementById('resp')
+
+            res.innerHTML = `Seu numero é ${num1}. e o dobro de ${num1} é ${num1*2} e a metade dele é ${num1/2}. já numa divisão inteira é ${num1%2} e a soma de ${num1} + 2 é ${num1+2} e a subtração é ${num1-2}`
+        }
+    </script>
+</body>
+</html>

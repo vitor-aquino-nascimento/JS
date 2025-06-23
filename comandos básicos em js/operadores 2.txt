@@ -1,0 +1,133 @@
+Continuando com nossos assuntos de operadores. Na primeira anotação, falamos sobre os operadores aritméticos e as atribuições. 
+
+Nos falta falar sobre os:
+
+*relacionais:
+	Nos operadores relacionais, usamos eles para descrever se um numero é: maior ou menor, se ele é igual ou desigual, se ele é maior ou igual, menor ou igual. E quando o JS identificar ele vai nos dar um resultado boleado: true ou false (verdadeiro ou falso).
+
+Para que isso ocorra temos símbolos que impor para o JS identificar e nos dar o resultado.
+
+> maior
+
+Exemplo:
+
+5 > 5
+False
+6 > 5
+True
+4 > 5
+False
+
+Isso ocorre porque quando colocamos dois valores de lados opostos do símbolo, ele vai analizar da esquerda para direita. Sendo assim se o numero da esquerda for (Maior) que o da direita ele vai dar o resultado 'True', caso contrario vai dar o resultado 'False'.
+
+< menor
+
+Exemplo:
+
+5 < 5
+False
+6 < 5
+False
+4 < 5
+True
+
+Isso ocorre porque quando colocamos dois valores de lados opostos do símbolo, ele vai analizar da esquerda para direita. Sendo assim se o numero da esquerda for (Menor) que o da direita ele vai dar o resultado 'True', caso contrario vai dar o resultado 'False'.
+
+>= maior ou igual
+
+Exemplo:
+
+5>=5
+True
+6>=5
+True
+4>=5
+False
+
+Isso ocorre porque quando colocamos dois valores de lados opostos do símbolo, ele vai analizar da esquerda para direita. Sendo assim se o numero da esquerda for (Maio ou Igual) que o da direita ele vai dar o resultado 'True', caso contrario vai dar o resultado 'False'.
+
+<= menor ou igual
+
+Exemplo:
+
+5<=5
+True
+6<=5
+False
+4<=5
+True
+
+Isso ocorre porque quando colocamos dois valores de lados opostos do símbolo, ele vai analizar da esquerda para direita. Sendo assim se o numero da esquerda for (Menor ou Igual) que o da direita ele vai dar o resultado 'True', caso contrario vai dar o resultado 'False'.
+
+== igual 
+
+(Obs:. Lembre que para JS o sinal de '=' é reconhecido como recebe e não como igual. Por isso que nesse caso temos dois sinais de '==' para descrever que queremos saber se tal propriedade é realmente igual a outra.)
+
+Exemplo:
+
+5==5
+True
+6==5
+False
+4==5
+False
+
+Nesse caso só vai dar 'True' se o valor for igual ao outro.
+
+Exemplo extra:
+Numero exemplo: 5
+5=='5'
+True
+5==='5'
+False
+
+Por que nesse exemplo o primeiro resultado deu verdadeiro e o outro deu falso. Simples, quando colocamos 5=='5' ele vai nos dar o resultado verdadeiro porque são números igual mesmo dento características diferentes. Mas quando colocamos 5==='5' ele dá falso porque nesse exemplo estamos dizendo se o 5 é exatamente igual a '5'.
+
+5=='5' o numero é igual a 5? (o numero é igual 'verdade')
+5==='5' o numero é exatamente igual á 5? (O numero sim, mas não é exatamente igual 'falso')
+
+!= desigual
+
+Exemplo:
+
+5!=5
+False
+6!=5
+True
+4!=5
+True
+5!='5'
+False
+5!=='5'
+True
+
+Por que nesse exemplo o primeiro resultado deu verdadeiro e o outro deu falso. Simples, quando colocamos 5!='5' ele vai nos dar o resultado verdadeiro porque são números igual mesmo dento características diferentes. Mas quando colocamos 5!=='5' ele dá falso porque nesse exemplo estamos dizendo se o 5 é exatamente igual a '5'.
+
+5!='5' o numero é igual a 5? (o numero é igual 'verdade')
+5!=='5' o numero é exatamente igual á 5? (O numero sim, mas não é exatamente igual 'falso')
+
+*lógicos
+
+	 Nos operadores lógicos, usamos eles para negação, conjunção e disjunção. Essas três propriedades são sinalizadas com (!) negação, (&&)conjunção e (||)disjunção
+
+! Negação
+
+O operador de negação, funciona com dois resultados: true ou false (pode descrever também algo que tenha o mesmo sentido), por exemplo: fulano é maior de idade \ fulano é menor de idade.
+
+True!false
+
+&& Conjunção
+
+Com esse operador, seu funcionamento se baseia com forme duas informações binárias sejam verdadeiras. Caso contrario todos vão dar falso.
+
+|| Disjunção
+
+Já a disjunção, segue a mesma lógica da conjunção. Mas sua diferença é quando a conjunção precisa ter todos os resultados verdadeiros para dar o resultado verdadeiro, a disjunção basta um dos resultados binários ser verdadeiro para dar o resultado verdadeiro.
+
+*ternário
+
+	Os operadores ternários funcionam da seguinte forma, quando formos colocar uma classificação de idade num site, usamos essa tag: 
+
+idade >=18 ? 'Maior' : 'Menor'
+
+* Se formos ler esse código, iriamos dizer: a tal idade é maior ou igual a 18? Se sim 'maior' se não 'menor'

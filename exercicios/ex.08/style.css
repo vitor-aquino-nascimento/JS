@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+#resultado{
+    border: 3px solid orange;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    font: normal 20px arial;
+    color: black;
+    margin: 20px auto;
+}
+
+.buttom{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font: normal 17px arial;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.buttom:hover{
+    background-color: white;
+    color: orange;
+}

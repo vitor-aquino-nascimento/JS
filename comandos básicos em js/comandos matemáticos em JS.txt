@@ -1,0 +1,13 @@
+Comandos de matemática em JS
+
+˙ + = Soma
+˙ - = Subtração
+˙ * = Multiplicação
+˙ / = Divisão
+˙ % = Divisão exata
+˙ Math.abs(n) = valor absoluto
+˙ Math.trunc(n) = valor inteiro
+˙ Math.round(n) = valor inteiro mais próximo
+˙ Math.sqrt(n) = raiz quadrada
+˙ Math.cbrt(n) = raiz cúbica
+˙ Math.pow(n, 2) = valor sobre outro

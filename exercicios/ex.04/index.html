@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados em JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tratamento de dados com JavaScript 2.0</h1>
+    <input class="buttom" type="button" value="COMEÇAR" onclick="começar()">
+    <section id="resp">
+        <p>Aqui vai aparecer o resultado ...</p>
+    </section>
+
+    <script>
+        function começar() {
+            var nome = window.prompt('Qual seu nome?')
+            var idade = window.prompt('Qual sua idade?')
+            var sex = window.prompt('Qual seu Genero?')
+            var nasc = window.prompt('qual sua nacionalidade?')
+            var res = window.document.getElementById('resp')
+
+            res.innerHTML = `Olá. Você é o ${nome} que tem <strong>${idade}</strong> Anos, do sexo ${sex.toUpperCase()} e que mora no ${nasc.toUpperCase()}?`
+        }
+    </script>
+</body>
+</html>
